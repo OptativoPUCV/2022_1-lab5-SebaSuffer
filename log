@@ -129,3 +129,9 @@ treemap.c:48:6: note: declared here
 cc1.exe: all warnings being treated as errors
 Compilation failed
 5e01dc1
+ju., 21 de abr. de 2022 12:07:28: 
+ treemap.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  11|6
+total_score: 15/70
+4106ab9
