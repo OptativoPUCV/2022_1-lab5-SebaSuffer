@@ -141,3 +141,13 @@ ju., 21 de abr. de 2022 12:15:42:
  tests:  11|6
 total_score: 15/70
 09b50f9
+ju., 21 de abr. de 2022 12:17:24: 
+ treemap.c | 10 ++++------
+ 1 file changed, 4 insertions(+), 6 deletions(-)
+In file included from test.c:4:0:
+treemap.c: In function 'insertTreeMap':
+treemap.c:70:24: error: expected identifier before '->' token
+         tree->current->->right->value = value;
+                        ^~
+Compilation failed
+ef3965d
