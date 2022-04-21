@@ -47,11 +47,7 @@ TreeMap * createTreeMap(int (*lower_than) (void* key1, void* key2)) {
 
 void insertTreeMap(TreeMap * tree, void* key, void * value) {
     TreeNode * nodo = tree->root;
-    newNode = createTreeNode(key,value);
-
-
-    datos->key = key;
-    datos->value = value;
+    TreeNode * newNode = createTreeNode(key,value);
     
     while (nodo != NULL){
         tree->current = nodo;
