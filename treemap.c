@@ -123,7 +123,7 @@ Pair * upperBound(TreeMap * tree, void* key) {
 Pair * firstTreeMap(TreeMap * tree) {
     if (tree->current->left != NULL)
         tree->current = minimum(tree->root);
-    return tree->current;
+    return tree->current->pair;
 }
 
 Pair * nextTreeMap(TreeMap * tree) {
