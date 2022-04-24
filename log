@@ -308,3 +308,14 @@ Sat Apr 23 22:05:47 HSP 2022:
  tests:  15|4
 total_score: 25/70
 f72a490
+Sat Apr 23 22:07:44 HSP 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:0:
+treemap.c: In function 'minimum':
+treemap.c:80:10: error: statement with no effect [-Werror=unused-value]
+         x->left;
+         ~^~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+7c0d1b7
